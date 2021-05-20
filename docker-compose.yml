@@ -1,0 +1,19 @@
+version: "3"
+services:
+  soga:
+    image: sprov065/soga:latest
+    restart: on-failure
+    network_mode: host
+    environment:
+      type: sspanel-uim
+      server_type: v2ray
+      api: webapi
+      webapi_url: http://www.mudong.tk/
+      webapi_key: Nimaj60F3adonQu
+      node_id: 0
+      cert_domain: 
+      cert_mode: http
+      force_close_ssl: 'false'              # 填写 false 或 true 参数值时需要加引号
+      forbidden_bit_torrent: 'true'         # 填写 false 或 true 参数值时需要加引号
+    volumes:
+      - "/etc/soga/:/etc/soga/"
