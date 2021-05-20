@@ -16,4 +16,4 @@ services:
       force_close_ssl: 'false'              # 填写 false 或 true 参数值时需要加引号
       forbidden_bit_torrent: 'true'         # 填写 false 或 true 参数值时需要加引号
     volumes:
-      - "/etc/soga/:/etc/soga/"
+      - "/root/soga/:/etc/soga/"
