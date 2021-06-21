@@ -5,11 +5,11 @@ services:
     restart: on-failure
     network_mode: host
     environment:
-      type: sspanel-uim
+      type: v2board 
       server_type: v2ray
       api: webapi
-      webapi_url: http://www.mudong.tk/
-      webapi_key: Nimaj60F3adonQu
+      webapi_url: https://923926.xyz/
+      webapi_key: ty2yX5jpDr5KVc6hphE6mXb8M
       node_id: 0
       cert_domain: 
       cert_mode: http
