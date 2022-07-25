@@ -8,9 +8,9 @@ services:
       type: v2board 
       server_type: v2ray
       api: webapi
-      webapi_url: https://923926.xyz/
+      webapi_url: http://923926.xyz/
       webapi_key: ty2yX5jpDr5KVc6hphE6mXb8M
-      node_id: 0
+      node_id: 3
       cert_domain: 
       cert_mode: http
       force_close_ssl: 'false'              # 填写 false 或 true 参数值时需要加引号
